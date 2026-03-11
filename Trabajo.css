@@ -1,0 +1,33 @@
+/* selector de etiquetas
+(*) selector universal
+() selector normal
+(#) selector id
+(.) selector de clase */
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:grey ;
+    font-family: cursive;
+}
+#container{
+    width: 1500px;
+    margin: 0px;
+    border: 1px solid black;
+}
+header{
+    background-color: lightgray;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+nav{
+    background: grey;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
